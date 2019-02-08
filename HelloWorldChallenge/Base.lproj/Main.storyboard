@@ -18,22 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4p-Fq-uGm">
-                                <rect key="frame" x="164" y="71" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4p-Fq-uGm">
+                                <rect key="frame" x="170" y="71" width="35" height="30"/>
+                                <state key="normal" title="Hello"/>
                                 <connections>
                                     <action selector="doHelloWorld:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XK3-qw-cXh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVZ-Sx-OX9">
-                                <rect key="frame" x="166.5" y="40" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVZ-Sx-OX9">
+                                <rect key="frame" x="149.5" y="40" width="76" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeN-s1-bGx">
-                                <rect key="frame" x="164.5" y="111" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="169.5" y="111" width="36" height="30"/>
+                                <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="doClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nns-Lv-qeX"/>
                                 </connections>
@@ -44,6 +44,7 @@
                             <constraint firstItem="cVZ-Sx-OX9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3ZM-Cv-jBv"/>
                             <constraint firstItem="BeN-s1-bGx" firstAttribute="top" secondItem="Q4p-Fq-uGm" secondAttribute="bottom" constant="10" id="91o-K5-ToJ"/>
                             <constraint firstItem="Q4p-Fq-uGm" firstAttribute="top" secondItem="cVZ-Sx-OX9" secondAttribute="bottom" constant="10" id="Dvx-5Z-imR"/>
+                            <constraint firstItem="Q4p-Fq-uGm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Esd-Sp-A35"/>
                             <constraint firstItem="cVZ-Sx-OX9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nxi-Ea-hrq"/>
                             <constraint firstItem="BeN-s1-bGx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yzd-7M-JBn"/>
                             <constraint firstItem="Q4p-Fq-uGm" firstAttribute="top" secondItem="cVZ-Sx-OX9" secondAttribute="bottom" constant="10" id="bry-xr-8dy"/>

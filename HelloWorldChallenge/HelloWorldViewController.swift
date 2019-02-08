@@ -17,9 +17,11 @@ class HelloWorldViewController: UIViewController {
     }
 
     @IBAction func doHelloWorld(_ sender: Any) {
+        messageLabel.text = "Hello World!"
     }
     
     @IBAction func doClear(_ sender: Any) {
+        messageLabel.text = ""
     }
 }
 
